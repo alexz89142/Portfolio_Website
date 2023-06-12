@@ -1,0 +1,1 @@
+/home/bamboo/Projects/1_Current Projects/Portfolio Site/dockerTest/Site2/website/bin/Debug/net7.0/publish/web.config

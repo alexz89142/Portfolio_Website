@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = website
+build_property.RootNamespace = website
+build_property.ProjectDir = /home/bamboo/Projects/1_Current Projects/Portfolio Site/dockerTest/Site2/website/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/bamboo/Projects/1_Current Projects/Portfolio Site/dockerTest/Site2/website
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/bamboo/Projects/1_Current Projects/Portfolio Site/dockerTest/Site2/website/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/bamboo/Projects/1_Current Projects/Portfolio Site/dockerTest/Site2/website/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/bamboo/Projects/1_Current Projects/Portfolio Site/dockerTest/Site2/website/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/bamboo/Projects/1_Current Projects/Portfolio Site/dockerTest/Site2/website/Pages/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRm9vdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/bamboo/Projects/1_Current Projects/Portfolio Site/dockerTest/Site2/website/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/bamboo/Projects/1_Current Projects/Portfolio Site/dockerTest/Site2/website/Pages/Nav.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmF2LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/bamboo/Projects/1_Current Projects/Portfolio Site/dockerTest/Site2/website/Pages/Projects.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvamVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/bamboo/Projects/1_Current Projects/Portfolio Site/dockerTest/Site2/website/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/bamboo/Projects/1_Current Projects/Portfolio Site/dockerTest/Site2/website/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-u9y41gdj2z

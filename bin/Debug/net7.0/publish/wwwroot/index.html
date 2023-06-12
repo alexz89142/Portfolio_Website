@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark" lang="en">
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"-- />
+    <title>Alejandro Zepeda Portfolio</title>
+    <base href="/" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/icons/font/bootstrap-icons.min.css">
+    <style>
+        body{
+            background-color: gray;
+            color:white;
+            height:100%;
+            background-size:cover;
+            z-index: -2;
+        }
+        .card{
+            color:black;
+            height: 250px;
+        }
+        .card-title{
+            text-align: center;
+        }
+        .ProjectButtons{
+            text-align: center;
+        }
+
+        .navbar{
+            background-color: #0e1121;
+        }
+
+        footer{
+            background-color: #000f08;
+        }
+        .spacer{
+            height:30px;
+        }
+        .card{
+            margin: 5px;
+        }
+        .links{
+            text-decoration: none;
+        }
+        .modal-backdrop {
+            display: none;    
+        }
+        .Btn-style1{
+            color:white;
+            background-color: #1667e0;
+        }
+        .Btn-style2{
+            background-color: #f7c327;
+            color:black;
+        }
+        .Btn-style3{
+            color:white;
+            background-color: #599fd1;
+        }
+        .Btn-style4{
+            color: white;
+            background-color: #fca523;
+        }
+
+.modal{
+    background-color: rgba(10,10,10,0.45);
+}
+    </style>
+    
+    <!-- If you add any scoped CSS files, uncomment the following to load them
+    <link href="website.styles.css" rel="stylesheet" /> -->
+</head>
+
+<body>
+    <div id="app"></div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/web3forms.js" async defer></script>
+    <script src="js/script.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/vanta.waves.min.js"></script>
+    
+    <script>
+        VANTA.WAVES({
+  el: "body",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 1520,
+  minWidth: 210.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x1c1d31,
+  waveHeight: 5.00,
+  waveSpeed: 0.25
+})
+      </script>
+</body>
+
+</html>
