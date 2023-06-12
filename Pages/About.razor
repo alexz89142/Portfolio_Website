@@ -1,0 +1,65 @@
+<div class="d-flex container" style="height:800px;">
+    <div class="row align-items-center">
+        <div class="col-md mt-5" style="height:400px">
+            <div class="Description">
+                <div><h1>Hi, I'm Alejandro Zepeda</h1></div>
+                <br>
+                <div>I specialize in all different aspects of computers. I have experience with full-stack software development, cybersecurity, networking, information technology, and troubleshooting. In my free time I also study languages (I speak English and Spanish natively) and I make digital art</div>
+                </div>
+                <br>
+            <button type="button" class="btn Btn-style1" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</button>
+<a href="https://drive.google.com/file/d/1tjcQr_ORCqRnpRGGouuUg5Nipk5Zaq_B/view" class="btn Btn-style2">Resume</a>
+        </div>
+        <div class="col-md" style="height:400px">
+            <div class="skills mt-4"><h1>Skills</h1></div>
+
+            <div class="btn-group" style="width:100%" role="group" aria-label="Skill Selector">
+            <button class="btn Btn-style3" @onclick='() => skillsetUpdate("UI")'>UI</button>
+            <button class="btn Btn-style3" @onclick='() => skillsetUpdate("Back-end")'>Back-end</button>
+            <button class="btn Btn-style3" @onclick='() => skillsetUpdate("Security")'>Security</button>
+            <button class="btn Btn-style3" @onclick='() => skillsetUpdate("Other")'>Other</button>
+            </div>
+            @if(skillset=="UI"){
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">HTML/CSS/Javascript</li>
+                    <li class="list-group-item">Bootstrap/jQuery</li>
+                    <li class="list-group-item">Svelte</li>
+                    <li class="list-group-item">.NET & Razor/Blazor</li>
+                </ul>
+            }
+            @if(skillset=="Back-end"){
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">C#</li>
+                    <li class="list-group-item">Python</li>
+                    <li class="list-group-item">Java</li>
+                    <li class="list-group-item">NodeJS</li>
+                </ul>
+            }
+            @if(skillset=="Security"){
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Firewalls</li>
+                    <li class="list-group-item">SSL Encryption</li>
+                    <li class="list-group-item">Authentication</li>
+                    <li class="list-group-item">Server Hardening</li>
+                </ul>
+            }
+            @if(skillset=="Other"){
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Windows/MacOS/Linux</li>
+                    <li class="list-group-item">Certifed Apple Technician</li>
+                    <li class="list-group-item">Certified Geek Squad Agent</li>
+                    <li class="list-group-item">Recognized for Customer Satisfaction</li>
+                    <li class="list-group-item">Cloud Computing/Docker</li>
+                </ul>
+            }
+        </div>
+    </div>
+</div>
+
+@code{
+    private string skillset="UI";
+
+    private void skillsetUpdate(string newSkillset){
+        skillset=newSkillset;
+    }
+}
